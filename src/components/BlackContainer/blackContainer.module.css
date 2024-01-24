@@ -1,0 +1,53 @@
+.div_baground_image{
+    background-image: url("/background-div.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 42%;
+    min-height: 350px;
+    overflow: hidden;
+    margin-left: 7%;
+    border-radius: 5%;
+    text-align: start;
+    padding: 20px;
+    color: white;
+    font-family: 'Aventi', sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div_right{
+    max-width: 42%;
+    min-height: 350px;
+    overflow: hidden;
+    margin-left: 7%;
+    border-radius: 5%;
+}
+
+.divBack{
+    width: 50%;
+}
+
+.btn_don{
+    background-color: #000000;
+    border-radius: 10px;
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+    margin: 6% 0;
+    font-family: 'Aventi', sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    box-shadow: 2px 3px 0px 1px #ffffff !important;
+}

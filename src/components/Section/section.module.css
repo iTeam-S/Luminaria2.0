@@ -1,0 +1,32 @@
+
+.section
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.section_left h2, .section_left h4{
+    font-family: 'Aventi', sans-serif !important;
+}
+
+.section_left p
+{
+    width: 70%;
+    height: 100%;
+    margin-top: 25px;
+    text-align: flex-start;
+}

@@ -1,0 +1,7 @@
+.svg {
+    border-top: 25px solid var(--color-text);
+    width: 25%;
+    height: 25%;
+    fill: var(--color-text);
+    transition: fill 0.3s ease;
+}

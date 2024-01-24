@@ -1,0 +1,84 @@
+.diviseur_head{
+    position: relative !important;
+  }
+
+.div_hr_top {
+    border-top: 1px solid #000000 !important;
+}
+
+.paragraphe{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+  color: #201f1f !important;
+}
+
+.svg_head{
+    transform: rotateY(180deg);
+    position: inherit;
+    margin-bottom: -240px;
+    margin-top: -8px;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titre_page {
+    font-size: 1.5rem;
+    max-width: 65%;
+    margin-top: 30px;
+    text-align: start;
+  }
+
+  .titre_page h1 {
+    font-size: 130px !important;
+    padding-left: 40px;
+    letter-spacing: 10px;
+  }
+
+  .svg_circle {
+    width: 125px;
+    height: 125px;
+  }
+
+  .faire_don {
+    margin-right: 250px;
+  }
+  .shadow_merch{
+    box-shadow: 2px 3px 0px 1px #212121 !important;
+    width: 110px !important;
+  }
+
+    .shadow_merch:hover{
+    box-shadow: 2px 3px 0px 1px #F6A713!important;
+    color: #F6A713;
+  }
+ 
+
+  @media (max-width: 970px) {
+    .titre_page {
+        max-width: 65%;
+        
+    }
+
+    .titre_page h1 {
+        font-size: 30px !important;
+        padding-left: 10px;
+        letter-spacing: 5px;
+    }
+
+    .faire_don {
+        width: 80px;
+        height: 80px;
+        margin-right: 25px;
+    }
+
+    .bod {
+        display: none;
+    }
+}

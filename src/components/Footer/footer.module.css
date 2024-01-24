@@ -1,0 +1,36 @@
+.cont_foot {
+    background-color: #212121 !important;
+    color: #FFF2D2 !important;
+    font-family: Aventi;
+    margin-top: 100px;
+    padding: 30px 10px;
+  }
+
+.social_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.inp_modi {
+    background-color: #212121 !important;
+    color : #FFF2D2 !important;
+    border : 2px solid #F6A713 !important;
+}
+
+.inp_modi::placeholder{
+    color: #FFF2D2 !important;
+  }
+
+  .appen_mod {
+    background-color: #F6A713 !important;
+    border-radius: 5px;
+  }
+  
+  .group_mod{
+    padding-top: 17px !important;
+    background-color: #F6A713 !important;
+    border: none !important;
+  }

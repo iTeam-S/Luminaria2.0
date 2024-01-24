@@ -1,0 +1,118 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.cdnfonts.com/css/aventi');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+/* @font-face {
+  src: url("./YOUKISS.otf");
+  font-family: 'Youkiss';
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+body{
+  background-color: #FFF2D2 !important;
+}
+.body{
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.font-aventi {
+  font-family: 'Aventi', sans-serif;
+}
+
+.font-youkiss {
+  font-family:  'Damion'!important;
+}
+
+.start_col{
+  border-right: 1px solid #212121;
+  border-top-right-radius: 50px;
+  padding: 10px;
+  text-align: start;
+  /* padding-left: 30px; */
+}
+
+.content_descr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Aventi;
+  font-size: 20px;
+  color: #212121;
+}
+
+.mid_col{
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 10px;
+  text-align: start;
+}
+
+.end_col{
+  border-left: 1px solid #212121;
+  border-top-left-radius: 50px;
+  padding: 10px;
+  text-align: start;
+}
+
+@media (max-width: 970px) {
+  .card_tete{
+    margin-top: 25px;
+    border-left: 1px solid black;
+    /* border-right: 1px solid black; */
+    border-top: 1px solid black;
+  }
+  
+  .card_tete .row{
+    width:100%;
+  }
+  
+  .start_col{
+    margin-bottom: 25px;
+    border: 1px solid black;
+    border-bottom-left-radius: 50px;
+    /* border-top-left-radius: 50px; */
+    margin-left: 11px;
+  }
+  
+  .mid_col{
+    margin-bottom: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 11px;
+  }
+  
+  .end_col{
+    /* margin-bottom: 25px; */
+    border: 1px solid black;
+    border-bottom-right-radius: 50px;
+    margin-left: 11px;
+  }
+  .nav-item.dropdown{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/basting-brush');
+
+.titre{
+    font-family: 'Basting Brush', sans-serif;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; 
+    font-size: 15px !important;
+  }
+
+.menu_bars{
+    color: #212121 !important;
+    font-size: 1.8rem !important;
+    cursor: pointer !important;
+    display: none;
+}
+
+.modif_drop{
+    background-color: #FFF2D2 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    margin-top: -10px !important;
+  }
+
+.modif_drop li {
+    padding-left: 5px !important;
+    border: 1px solid #212121 !important;
+  }
+
+.modif_drop li:hover{
+    background-color: #F6A713 !important;
+    color: #212121 !important;
+  }
+
+.modif_drop_item{
+    text-decoration: none !important;
+    color: #212121 !important;
+    z-index: 1000 !important;
+  }
+
+.shadow_merch{
+    box-shadow: 2px 3px 0px 1px #212121 !important;
+    width: 110px !important;
+  }
+
+.shadow_merch:hover{
+    box-shadow: 2px 3px 0px 1px #F6A713!important;
+    color: #F6A713;
+  }
+@media (max-width: 970px) {
+    .menu_bars {
+        display: block;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .hash_nav {
+        display: none;
+    }
+
+    .modif_drop{
+        width: 50%;
+    }
+
+    .shadow_merch:hover{
+      margin-bottom: 20px;
+    }
+}
